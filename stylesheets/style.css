@@ -7,32 +7,22 @@
 * a {
   transition: all .5s ease 0s;
 }
-.navi {
-  position: fixed;
-  z-index: 1;
-  top: 20px;
+#first-btn {
+  color: white;
 }
-.navi li {
-  font-family: 'FontAwesome', 'Open Sans', sans-serif;
-  display: block;
-  width: 57px;
-  padding: 0 10px;
-  margin-bottom: 1.5rem;
-  -webkit-transition: all 0.2s ease-in-out;
-  line-height: 30px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  text-align: left;
+#first-btn:hover {
+  color: #64ffda;
 }
-.navi li:hover {
-  font-size: 25px;
+.navi-btn {
+  margin-top: 2rem;
+  color: #039be5;
+}
+.navi-btn:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
   cursor: pointer;
-  width: 100px !important;
-}
-.navi li.active {
-  font-size: 25px;
-  cursor: pointer;
-  width: 100px !important;
+  color: #1565c0;
 }
 .slide {
   width: 100vw;
@@ -129,15 +119,6 @@
   text-align: left;
   font-weight: normal;
   font-size: 21px;
-}
-#slide2 .about-me .content a {
-  margin-top: 2rem;
-  color: #1565c0;
-  font-size: 25px;
-}
-#slide2 .about-me .content small {
-  font-size: 15px;
-  color: #039be5;
 }
 #slide3 {
   padding: 4rem 2rem 4rem 2rem;
@@ -237,34 +218,14 @@
 #slide4 h5 a:hover {
   color: #64ffda !important;
 }
-#slide4 .content a#mail {
-  font-size: 6rem;
+#slide4 .contact a {
+  margin-top: 2rem;
+  color: #1565c0;
+  font-size: 25px;
 }
-#slide4 .write-you-me {
-  padding: 2rem;
-}
-#slide4 .write-you-me label {
-  font-size: 1rem;
+#slide4 .contact small {
+  font-size: 15px;
   color: #039be5;
-}
-#slide4 .write-you-me input {
-  margin-bottom: 4rem;
-}
-#slide4 .write-you-me input[type=text]:focus,
-#slide4 .write-you-me input[type=tel]:focus,
-#slide4 .write-you-me input[type=email]:focus {
-  box-shadow: 0 1px 0 0 #039be5 !important;
-  border-bottom: 1px solid #039be5 !important;
-}
-#slide4 .write-you-me .select-wrapper {
-  margin-top: 0 !important;
-}
-#slide4 .write-you-me .select-dropdown,
-#slide4 .write-you-me .dropdown-content {
-  color: #039be5;
-}
-#slide4 .write-you-me textarea {
-  height: 10rem;
 }
 footer {
   margin: 0;
@@ -307,48 +268,19 @@ footer {
   #slide4 {
     height: 100%;
   }
-  #slide4 .write-you-me {
-    padding: 1%;
-    width: 100%;
-  }
-  #slide4 .write-you-me label {
-    color: grey;
-    font-size: 20px;
-  }
-  #slide4 .write-you-me ::-webkit-input-placeholder {
-    color: #039be5 !important;
-  }
-  #slide4 .write-you-me :-moz-placeholder {
-    /* Firefox 18- */
-    color: #039be5 !important;
-  }
-  #slide4 .write-you-me ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #039be5 !important;
-  }
-  #slide4 .write-you-me :-ms-input-placeholder {
-    color: #039be5 !important;
-  }
-  #slide4 .write-you-me textarea#description {
-    height: 115px;
-  }
-  #slide4 .write-you-me .btn {
-    width: 100%;
-    height: 4rem;
-  }
-  .such-success {
-    padding: 0;
-    height: 120%;
-  }
-  .such-success .container {
-    width: 100vw !important;
-  }
-  .such-success h1 {
-    font-size: 3rem;
-  }
-  .such-success a {
-    font-size: 2rem;
-  }
+}
+.such-success {
+  padding: 0;
+  height: 120%;
+}
+.such-success .container {
+  width: 100vw !important;
+}
+.such-success h1 {
+  font-size: 3rem;
+}
+.such-success a {
+  font-size: 2rem;
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   #slide2 .about-me table {
