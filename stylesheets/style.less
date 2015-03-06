@@ -1,0 +1,410 @@
+@import 'colors';
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	a{
+		transition: all .5s ease 0s;
+	}
+}
+
+// sidenav
+.navi {
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+	  li {
+		  display: block;
+		  width: 57px;
+		  padding: 0 10px;
+		  margin-bottom: 1.5rem;
+		  -webkit-transition: all .2s ease-in-out;
+		  line-height: 30px;
+		  font-weight: 500;
+		  letter-spacing: 3px;
+		  text-align: left;
+		  &:hover{
+			font-size:25px;
+			cursor:pointer;
+			width:100px !important;
+		}
+	}
+	li.active{
+			font-size:25px;
+			cursor:pointer;
+			width:100px !important;		
+	}
+}
+
+
+// all slides
+.slide{
+	width:100vw;
+	h1{
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		color:black;
+		text-align: center;
+		font-weight: 300;
+	}
+	//creates a fading hr effect for a classy header divide
+	hr{
+		width:55%;
+		border: 0;
+		height: 1px;
+		background: #333;
+		background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+		background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+		background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+		background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+	}
+	.content{
+		margin-top: 4rem;
+	}
+	.link-group{
+		ul{
+			display:inline-block;
+			a{
+
+				color:white;
+				&:hover{
+					color:@mint-light;
+				}
+			}
+		}
+		li{
+			display:inline;
+			margin-right: 4rem;
+		}
+	}
+}
+
+//first slide//
+#slide1{
+	height:100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/devl-desk.jpeg) center fixed no-repeat;
+	background-color: rgba(55,55,55, .5);
+	color:white;
+	text-align: center;
+	img{
+		height:180px;
+		width:180px;
+	}
+	#intro{
+		margin-top:10rem;
+	}
+}
+
+//second slide
+
+#slide2{
+	padding:4rem 2rem 4rem 2rem;
+	height:100%;
+	.about-me{
+		table{
+			width:45rem;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			thead{
+				display: block;
+				float: left;
+				border: 0;
+				border-right: 1px solid #d0d0d0;
+				tr{
+					display: block;
+					padding: 0 10px 0 0;
+					th{
+						display: block;
+						text-align: right;
+						font-weight: normal;
+						font-size: 21px;
+					}
+				}
+			}
+			tbody{
+				display: block;
+				width: auto;
+				position: relative;
+				overflow-x: auto;
+				white-space: nowrap;
+				tr{
+					display: inline-block;
+					vertical-align: top;
+					td{
+						display: block;
+						min-height: 1.25em;
+						text-align: left;
+						font-weight: normal;
+						font-size: 21px;
+					}
+				}
+			}
+		}
+		.content{
+			a{
+				margin-top: 2rem;
+				color:@blue-dark;
+				font-size: 25px;
+
+			}
+			small{
+				font-size:15px;
+				color:@blue-light;
+			}			
+		}
+	}	
+}
+
+#slide3{
+	padding:4rem 2rem 4rem 2rem;
+	height:105vh;
+	section{
+		margin-top: 4rem;
+	}
+	.collapsible{
+		li{
+			color:@blue-light;
+		}
+	}
+	.collapsible-body{
+		padding:3%;
+		h5{
+			margin-bottom:1rem;
+			text-decoration: underline;
+		}
+		img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.card a{
+		color:@blue-light;
+		margin-left: 2rem;
+	}
+	.card-title{
+		i{
+			color:@blue-light;
+		}
+	}
+	.card-content{
+		.dev-pic{
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.card-image{
+		img{
+			height:250px;
+			width:100%;
+		}
+	}
+	.card-reveal{
+		color:darken(@grey-light, 25%);
+		background-color:@grey-light;
+		.role{
+			color:@blue-light;
+		}
+	}
+}
+
+//slide 4
+#slide4{
+	padding:4rem 2rem 4rem 2rem;
+	height:100%;
+	h5{
+		a{
+			&:hover{
+				color:@mint-light !important;
+			}
+		}
+	}
+	.write-you-me{
+		padding:2rem;
+		label{
+			font-size: 1rem;
+			color:@blue-light;
+		}
+		input{
+			margin-bottom: 4rem;
+		}
+		input[type=text]:focus,
+		input[type=tel]:focus,
+		input[type=email]:focus{
+			box-shadow: 0 1px 0 0 @blue-light !important;
+			border-bottom: 1px solid @blue-light !important;
+		}
+
+		.select-wrapper{
+			margin-top: 0 !important;
+		}
+		.select-dropdown, .dropdown-content{
+			color:@blue-light;
+		}
+		textarea{
+			height:10rem;
+		}
+	}
+}
+//email submission success page
+.such-success{
+	height:100vh;
+	width:100vw;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)), url(../imgs/iphoney.jpeg) center center fixed no-repeat;
+	background-color: rgba(55,55,55, .5);
+	background-size: cover;
+	color:white;
+	.success-msg{
+		padding:4rem;
+		text-align: center;
+		line-height: 25px;
+	}
+	h1{
+		padding-top: 2rem;
+		margin-top: 0;
+	}
+	h5{
+		line-height: 45px;
+	}
+	hr {
+		width: 55%;
+		border: 0;
+		height: 1px;
+		background: whitesmoke;
+		background-image: -webkit-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
+		background-image:    -moz-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
+		background-image:     -ms-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
+		background-image:      -o-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
+	}
+}
+
+
+//#####################################  begin media query fun #####################################################//
+
+//mobile devices//
+@media only screen and (min-width:300px) and (max-width:600px)
+{
+
+	h5.center{
+		line-height: 3rem;
+		&:first-child{
+			margin-bottom: 4rem;
+		}
+	}	
+
+	.hos{
+		display: none !important;
+	}
+
+	#slide1{
+		.link-group{
+			position: absolute;
+			margin-left: -100px;
+			left: 50%;
+		}
+
+		h1{
+			font-size: 3.5rem;
+		}
+		h4{
+			font-weight: 500;
+			font-size: 2.2rem;
+		}
+	}
+
+	#slide2{
+		.content{
+			.col{
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+			}
+			a{
+				font-size: 35px !important;
+			}
+			small{
+				font-size: 12px !important;
+			}
+		}
+	}
+	#slide3{
+		height:110%;
+	}
+	#slide4{
+		height:100%;
+		.write-you-me{
+			padding:1%;
+			width:100%;
+			label{
+				color:grey;
+				font-size: 20px;
+			}
+			::-webkit-input-placeholder {
+				color: @blue-light !important;
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+				color: @blue-light !important;  
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+				color: @blue-light !important;  
+			}
+
+			:-ms-input-placeholder {  
+				color: @blue-light !important;  
+			}
+			textarea#description{
+				height:115px;
+			}
+			.btn{
+				width:100%;
+				height:4rem;
+			}
+		}
+	}
+	.such-success{
+		.container{
+			width:100vw !important;
+		}
+		padding:0;
+		height:120%;
+
+		h1{
+			font-size: 3rem;
+		}
+		a{
+			font-size: 2rem;
+		}
+	}
+}
+
+
+@media only screen and (min-width:601px) and (max-width:992px)
+{
+	#slide2{
+		.about-me{
+			table{
+				width:80%;
+				margin-left: initial;
+				margin-right: 0;
+			}
+		}		
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:992px)
+{
+	.hnl{
+		display:none;
+	}
+}
+
+//######################################  end media query fun ######################################################//
+
+

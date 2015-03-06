@@ -1,0 +1,341 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* a {
+  transition: all .5s ease 0s;
+}
+.navi {
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+}
+.navi li {
+  display: block;
+  width: 57px;
+  padding: 0 10px;
+  margin-bottom: 1.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: left;
+}
+.navi li:hover {
+  font-size: 25px;
+  cursor: pointer;
+  width: 100px !important;
+}
+.navi li.active {
+  font-size: 25px;
+  cursor: pointer;
+  width: 100px !important;
+}
+.slide {
+  width: 100vw;
+}
+.slide h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+}
+.slide hr {
+  width: 55%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -moz-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -ms-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -o-linear-gradient(left, #cccccc, #333333, #cccccc);
+}
+.slide .content {
+  margin-top: 4rem;
+}
+.slide .link-group ul {
+  display: inline-block;
+}
+.slide .link-group ul a {
+  color: white;
+}
+.slide .link-group ul a:hover {
+  color: #64ffda;
+}
+.slide .link-group li {
+  display: inline;
+  margin-right: 4rem;
+}
+#slide1 {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/devl-desk.jpeg) center fixed no-repeat;
+  background-color: rgba(55, 55, 55, 0.5);
+  color: white;
+  text-align: center;
+}
+#slide1 img {
+  height: 180px;
+  width: 180px;
+}
+#slide1 #intro {
+  margin-top: 10rem;
+}
+#slide2 {
+  padding: 4rem 2rem 4rem 2rem;
+  height: 100%;
+}
+#slide2 .about-me table {
+  width: 45rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#slide2 .about-me table thead {
+  display: block;
+  float: left;
+  border: 0;
+  border-right: 1px solid #d0d0d0;
+}
+#slide2 .about-me table thead tr {
+  display: block;
+  padding: 0 10px 0 0;
+}
+#slide2 .about-me table thead tr th {
+  display: block;
+  text-align: right;
+  font-weight: normal;
+  font-size: 21px;
+}
+#slide2 .about-me table tbody {
+  display: block;
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+#slide2 .about-me table tbody tr {
+  display: inline-block;
+  vertical-align: top;
+}
+#slide2 .about-me table tbody tr td {
+  display: block;
+  min-height: 1.25em;
+  text-align: left;
+  font-weight: normal;
+  font-size: 21px;
+}
+#slide2 .about-me .content a {
+  margin-top: 2rem;
+  color: #1565c0;
+  font-size: 25px;
+}
+#slide2 .about-me .content small {
+  font-size: 15px;
+  color: #039be5;
+}
+#slide3 {
+  padding: 4rem 2rem 4rem 2rem;
+  height: 105vh;
+}
+#slide3 section {
+  margin-top: 4rem;
+}
+#slide3 .collapsible li {
+  color: #039be5;
+}
+#slide3 .collapsible-body {
+  padding: 3%;
+}
+#slide3 .collapsible-body h5 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+#slide3 .collapsible-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#slide3 .card a {
+  color: #039be5;
+  margin-left: 2rem;
+}
+#slide3 .card-title i {
+  color: #039be5;
+}
+#slide3 .card-content .dev-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#slide3 .card-image img {
+  height: 250px;
+  width: 100%;
+}
+#slide3 .card-reveal {
+  color: #7d7d7d;
+  background-color: #bdbdbd;
+}
+#slide3 .card-reveal .role {
+  color: #039be5;
+}
+#slide4 {
+  padding: 4rem 2rem 4rem 2rem;
+  height: 100%;
+}
+#slide4 h5 a:hover {
+  color: #64ffda !important;
+}
+#slide4 .write-you-me {
+  padding: 2rem;
+}
+#slide4 .write-you-me label {
+  font-size: 1rem;
+  color: #039be5;
+}
+#slide4 .write-you-me input {
+  margin-bottom: 4rem;
+}
+#slide4 .write-you-me input[type=text]:focus,
+#slide4 .write-you-me input[type=tel]:focus,
+#slide4 .write-you-me input[type=email]:focus {
+  box-shadow: 0 1px 0 0 #039be5 !important;
+  border-bottom: 1px solid #039be5 !important;
+}
+#slide4 .write-you-me .select-wrapper {
+  margin-top: 0 !important;
+}
+#slide4 .write-you-me .select-dropdown,
+#slide4 .write-you-me .dropdown-content {
+  color: #039be5;
+}
+#slide4 .write-you-me textarea {
+  height: 10rem;
+}
+.such-success {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../imgs/iphoney.jpeg) center center fixed no-repeat;
+  background-color: rgba(55, 55, 55, 0.5);
+  background-size: cover;
+  color: white;
+}
+.such-success .success-msg {
+  padding: 4rem;
+  text-align: center;
+  line-height: 25px;
+}
+.such-success h1 {
+  padding-top: 2rem;
+  margin-top: 0;
+}
+.such-success h5 {
+  line-height: 45px;
+}
+.such-success hr {
+  width: 55%;
+  border: 0;
+  height: 1px;
+  background: whitesmoke;
+  background-image: -webkit-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
+  background-image: -moz-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
+  background-image: -ms-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
+  background-image: -o-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  h5.center {
+    line-height: 3rem;
+  }
+  h5.center:first-child {
+    margin-bottom: 4rem;
+  }
+  .hos {
+    display: none !important;
+  }
+  #slide1 .link-group {
+    position: absolute;
+    margin-left: -100px;
+    left: 50%;
+  }
+  #slide1 h1 {
+    font-size: 3.5rem;
+  }
+  #slide1 h4 {
+    font-weight: 500;
+    font-size: 2.2rem;
+  }
+  #slide2 .content .col {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  #slide2 .content a {
+    font-size: 35px !important;
+  }
+  #slide2 .content small {
+    font-size: 12px !important;
+  }
+  #slide3 {
+    height: 110%;
+  }
+  #slide4 {
+    height: 100%;
+  }
+  #slide4 .write-you-me {
+    padding: 1%;
+    width: 100%;
+  }
+  #slide4 .write-you-me label {
+    color: grey;
+    font-size: 20px;
+  }
+  #slide4 .write-you-me ::-webkit-input-placeholder {
+    color: #039be5 !important;
+  }
+  #slide4 .write-you-me :-moz-placeholder {
+    /* Firefox 18- */
+    color: #039be5 !important;
+  }
+  #slide4 .write-you-me ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #039be5 !important;
+  }
+  #slide4 .write-you-me :-ms-input-placeholder {
+    color: #039be5 !important;
+  }
+  #slide4 .write-you-me textarea#description {
+    height: 115px;
+  }
+  #slide4 .write-you-me .btn {
+    width: 100%;
+    height: 4rem;
+  }
+  .such-success {
+    padding: 0;
+    height: 120%;
+  }
+  .such-success .container {
+    width: 100vw !important;
+  }
+  .such-success h1 {
+    font-size: 3rem;
+  }
+  .such-success a {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  #slide2 .about-me table {
+    width: 80%;
+    margin-left: initial;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  .hnl {
+    display: none;
+  }
+}
