@@ -13,6 +13,7 @@
   top: 20px;
 }
 .navi li {
+  font-family: 'FontAwesome', 'Open Sans', sans-serif;
   display: block;
   width: 57px;
   padding: 0 10px;
@@ -268,36 +269,6 @@
 footer {
   margin: 0;
 }
-.such-success {
-  height: 100vh;
-  width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../imgs/iphoney.jpeg) center center fixed no-repeat;
-  background-color: rgba(55, 55, 55, 0.5);
-  background-size: cover;
-  color: white;
-}
-.such-success .success-msg {
-  padding: 4rem;
-  text-align: center;
-  line-height: 25px;
-}
-.such-success h1 {
-  padding-top: 2rem;
-  margin-top: 0;
-}
-.such-success h5 {
-  line-height: 45px;
-}
-.such-success hr {
-  width: 55%;
-  border: 0;
-  height: 1px;
-  background: whitesmoke;
-  background-image: -webkit-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
-  background-image: -moz-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
-  background-image: -ms-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
-  background-image: -o-linear-gradient(left, #f7f2f2, #887d7d, #f7f2f2);
-}
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   h5.center {
     line-height: 3rem;
@@ -389,5 +360,19 @@ footer {
 @media only screen and (min-width: 300px) and (max-width: 992px) {
   .hnl {
     display: none;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 650px) and (orientation: landscape) {
+  .slide {
+    height: 100% !important;
+  }
+  #slide1 .link-group ul {
+    display: inline-flex;
+    float: none !important;
+    margin-left: 11%;
+  }
+  #slide1 #intro {
+    margin-top: 0;
+    margin-bottom: 4rem;
   }
 }

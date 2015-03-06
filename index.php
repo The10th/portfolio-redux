@@ -15,13 +15,12 @@
 	<title>Julian the Dev</title>
 </head>
 <body>
-
 	<!-- side-nav smooth scrolling -->
 	<ul class="navi light-blue-text text-darken-1 hnl">
-		<li data-slide="1" class='mdi-action-bookmark-outline'>Intro</li>
-		<li data-slide="2" class='mdi-image-portrait'>About</li>
-		<li data-slide="3" class='mdi-action-extension'>Works</li>
-		<li data-slide="4" class='mdi-action-thumb-up'>Thanks</li>
+		<li data-slide="1" class='fa fa-bookmark'>Intro</li>
+		<li data-slide="2" class='fa fa-image'>About</li>
+		<li data-slide="3" class='fa fa-puzzle-piece'>Works</li>
+		<li data-slide="4" class='fa fa-star'>Thanks</li>
 	</ul>
 
 	<!-- ######### first slide ###########-->
