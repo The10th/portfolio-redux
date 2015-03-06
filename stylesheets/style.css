@@ -240,6 +240,9 @@ footer {
   .hos {
     display: none !important;
   }
+  #slide1 {
+    height: 105%;
+  }
   #slide1 .link-group {
     position: absolute;
     margin-left: -100px;
@@ -267,6 +270,12 @@ footer {
   }
   #slide4 {
     height: 100%;
+  }
+  #slide4 .content a {
+    font-size: 35px !important;
+  }
+  #slide4 .content small {
+    font-size: 12px !important;
   }
 }
 .such-success {
