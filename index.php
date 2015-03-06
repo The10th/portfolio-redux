@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./stylesheets/materialize.min.css"/>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-	<title>NON PRODUCTION</title>
+	<title>Julian the Dev</title>
 </head>
 <body>
 
@@ -222,9 +222,13 @@
 			<h1>Thanks <span class='hos'>for stopping by</span></h1>
 			<hr />			
 			<div class="content">
-				<h5 class='center light-blue-text text-darken-1'>We should do this again sometime. Shoot me a line down below or grab a copy of my <a class='light-blue-text text-darken-2' href='./download/jhvndrev.pdf'>CV</a class=''>.</h5>
+				<h5 class='center light-blue-text text-darken-1'>We should do this again sometime. Shoot me a line or grab a copy of my <a class='light-blue-text text-darken-2' href='./download/jhvndrev.pdf'>CV</a class=''>.</h5>
+				<h5 class='center grey-text text-darken-2'>Have a nice day.</h5>
+				<div class='center content'>
+					<a href="mailto:jhvndev@gmail.com" id='mail' class='mdi-communication-email shake'></a>
+				</div>
 
-				<form class='content write-you-me' action="process.php" method="post">
+				<!-- <form class='content write-you-me' action="process.php" method="post">
 					<div id='quote_form' class='contact'>
 						<div class='row'>
 							<div class="col s12 m6 l6">
@@ -259,11 +263,24 @@
 						</div>		
 						<button class='btn light-blue darken-1' value='submit' name="submit">Submit</button>
 					</div>
-				</form>
+				</form> -->
 			</div>				
 		</div>
 	</div>
 	<!-- ######### end slide 4 ###########-->	
+	<!-- ######### begin footer ###########-->	
+
+	<footer class='footer-copyright light-blue darken-1 white-text '>
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<section class='left'>
+						<i class='fa fa-copyright'></i>2014-2015 Julian HV Nguyen - All rights reserved.
+					</section>
+				</div>
+			</div>
+	</footer>
+
+	<!-- ######### end footer ###########-->	
 
 	<!-- loading js at  bottom -->
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
