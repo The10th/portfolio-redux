@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="title" content="Julian H.V. Nguyen - Front-End Web Developer &amp; UI Designer" />
+	<meta name="title" content="Julian HV Nguyen - Front-End Web Developer &amp; UI Designer" />
 	<meta name="description" content="Julian Nguyen is a front-end web developer and UI designer located in the Bay Area, California" />
 	<meta name="site_name" content="Julian the Developer" />	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
@@ -103,7 +103,7 @@
 		<section>
 			<ul class="collapsible">
 				<li>
-					<div class="collapsible-header"><i class="fa fa-file-code-o"></i>Developer</div>
+					<div class="collapsible-header"><i class="fa fa-file-code-o"></i>Developer <i class='right mdi-navigation-unfold-more'></i></div>
 					<div class="collapsible-body grey lighten-2 white-text">
 						<div class="row">
 							<div class="col l6">
@@ -112,11 +112,11 @@
 										<img class="activator" src="./imgs/dojo_login.png">
 									</div>
 									<div class="card-content grey accent-5">
-										<span class="card-title activator white-text text-darken-4">CiCo <i class="mdi-navigation-more-vert right"></i></span>
+										<span class="card-title activator white-text text-darken-4">CiCo <i class="mdi-navigation-expand-less right"></i></span>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title">
-											<i class="mdi-navigation-close right"></i>
+											<i class="mdi-navigation-expand-more right"></i>
 											Role: <span class='role'>Front-End Engineer</span>
 										</span>
 										<p>Dojo Clock In &amp; Out (CiCo) is an internal time keeping app built for Coding Dojo, Inc. staff. On a three man team I fulfilled the role of the front end developer, focusing on: <br />
@@ -133,11 +133,11 @@
 										<img class="activator" src="./imgs/dojo_review.png">
 									</div>
 									<div class="card-content grey accent-5">
-										<span class="card-title activator white-text text-darken-4">FuaR <i class="mdi-navigation-more-vert right"></i></span>
+										<span class="card-title activator white-text text-darken-4">FuaR <i class="mdi-navigation-expand-less right"></i></span>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title">
-											<i class="mdi-navigation-close right"></i>
+											<i class="mdi-navigation-expand-more right"></i>
 											Role: <span class='role'>Front-End Engineer</span>
 										</span>
 										<p>FuaR is an app that allows Coding Dojo students to upload their CV or portfolio design for the staff to review &amp; provide video feedback. I was the front-end dev on a three man team &amp; focused on content display, front-end functionality, &amp; UI design.
@@ -151,7 +151,7 @@
 					</div>
 				</li>
 				<li class="active">
-					<div class="collapsible-header"><i class="mdi-image-palette"></i>Designer</div>
+					<div class="collapsible-header"><i class="mdi-image-palette"></i>Designer <i class='right mdi-navigation-unfold-more'></i></div>
 					<div class="collapsible-body grey lighten-2 white-text">
 						<div class="row">
 							<div class="col l6">
@@ -160,11 +160,11 @@
 										<img class="activator" src="./imgs/quicksurvey.png">
 									</div>
 									<div class="card-content grey accent-5">
-										<span class="card-title activator white-text text-darken-4">QSI <i class="mdi-navigation-more-vert right"></i></span>
+										<span class="card-title activator white-text text-darken-4">QSI <i class="mdi-navigation-expand-less right"></i></span>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title">
-											<i class="mdi-navigation-close right"></i>
+											<i class="mdi-navigation-expand-more right"></i>
 											Role: <span class='role'>Designer</span>
 										</span>
 										<p>QuickSurveyInfo (QSI)  allows users to quickly create and share surveys while having a user friendly dashboard to display their analytics. For this project I designed the color scheme, icons, and landing page content. 
@@ -180,11 +180,11 @@
 										<img class="activator" src="./imgs/village88.png">
 									</div>
 									<div class="card-content grey accent-5">
-										<span class="card-title activator white-text text-darken-4">Village88<i class="mdi-navigation-more-vert right"></i></span>
+										<span class="card-title activator white-text text-darken-4">Village88<i class="mdi-navigation-expand-less right"></i></span>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title">
-											<i class="mdi-navigation-close right"></i>
+											<i class="mdi-navigation-expand-more right"></i>
 											Role: <span class='role'>Designer / Developer</span>
 										</span>
 										<p>Village88 is the development arm of Coding Dojo, Inc., focusing on rapid prototyping. I was Chosen by Coding Dojo's founder to fully design and build Village88's landing page and I focused on using existing brand colors, icon design, &amp; content flow.

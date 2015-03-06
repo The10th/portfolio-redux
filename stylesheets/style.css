@@ -4,6 +4,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* i,
 * a {
   transition: all .5s ease 0s;
 }
@@ -130,6 +131,9 @@
 #slide3 .collapsible li {
   color: #039be5;
 }
+#slide3 .collapsible .collapsible-header i:hover {
+  color: #1565c0;
+}
 #slide3 .collapsible-body {
   padding: 3%;
 }
@@ -147,6 +151,9 @@
   margin-left: 2rem;
 }
 #slide3 .card-title i {
+  font-size: 35px;
+}
+#slide3 .card-title i:hover {
   color: #039be5;
 }
 #slide3 .card-content .dev-pic {

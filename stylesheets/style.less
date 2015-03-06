@@ -5,7 +5,7 @@
 	font-smooth:always;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	a{
+	i, a{
 		transition: all .5s ease 0s;
 	}
 }
@@ -150,6 +150,13 @@
 		li{
 			color:@blue-light;
 		}
+		.collapsible-header{
+			i{
+				&:hover{
+					color:@blue-dark;
+				}
+			}
+		}
 	}
 	.collapsible-body{
 		padding:3%;
@@ -169,7 +176,10 @@
 	}
 	.card-title{
 		i{
-			color:@blue-light;
+			font-size: 35px;
+			&:hover{
+				color:@blue-light;
+			}
 		}
 	}
 	.card-content{
