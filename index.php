@@ -114,17 +114,23 @@
 			</div>
 			<div class="row content center contact">
 				<div class="col s12 m4 l4">
-					<a href="mailto:jhvndev@gmail.com" class='fa fa-paper-plane-o shake'>Email</a>
+					<a href="mailto:jhvndev@gmail.com" class='shake'>
+						<i class="fa fa-paper-plane-o"></i> Email
+					</a>
 					<br />
 					<small>jhvndev@gmail.com</small>
 				</div>
 				<div class="col s12 m4 l4">
-					<a href='skype:jhv_nguyen?call' class='fa fa-skype shake'>Skype</a>
+					<a href='skype:jhv_nguyen?call' class='shake'>
+						<i class="fa fa-paper-plane-o"></i>	Skype
+					</a>
 					<br />
 					<small>jhv_nguyen</small>
 				</div>
 				<div class="col s12 m4 l4">
-					<a href="./download/jhvndrev.pdf" class='fa fa-file-pdf-o shake'>CV</a>
+					<a href="./download/jhvndrev.pdf" class='shake'>
+						<i class="fa fa-file-pdf-o"></i> CV
+					</a>
 					<br />
 					<small>resume</small>
 				</div>
