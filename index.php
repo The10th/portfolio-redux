@@ -122,7 +122,7 @@
 				</div>
 				<div class="col s12 m4 l4">
 					<a href='skype:jhv_nguyen?call'>
-						<i class="shake fa fa-paper-plane-o"></i>	Skype
+						<i class="shake fa fa-skype"></i>	Skype
 					</a>
 					<br />
 					<small>jhv_nguyen</small>
