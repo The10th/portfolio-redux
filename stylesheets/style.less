@@ -41,6 +41,7 @@
 // all slides
 .slide{
 	width:100vw;
+
 	h1{
 		margin-top: 0;
 		margin-bottom: 0;
@@ -67,6 +68,7 @@
 	.link-group{
 		ul{
 			display:inline-block;
+			float: right;
 			a{
 
 				color:white;
@@ -89,7 +91,9 @@
 	background-color: rgba(55,55,55, .5);
 	color:white;
 	text-align: center;
+
 	img{
+		margin-left: -39px; //hacky because the logo I made isn't properly centered. @TODO redesign a better logo, jackass.
 		height:180px;
 		width:180px;
 	}
@@ -258,70 +262,12 @@
 			color:@blue-light;
 		}
 	}
-// .write-you-me{
-// 	padding:2rem;
-// 	label{
-// 		font-size: 1rem;
-// 		color:@blue-light;
-// 	}
-// 	input{
-// 		margin-bottom: 4rem;
-// 	}
-// 	input[type=text]:focus,
-// 	input[type=tel]:focus,
-// 	input[type=email]:focus{
-// 		box-shadow: 0 1px 0 0 @blue-light !important;
-// 		border-bottom: 1px solid @blue-light !important;
-// 	}
-
-// 	.select-wrapper{
-// 		margin-top: 0 !important;
-// 	}
-// 	.select-dropdown, .dropdown-content{
-// 		color:@blue-light;
-// 	}
-// 	textarea{
-// 		height:10rem;
-// 	}
-// }
 }
 
 //footer
 footer{
 	margin:0;
 }
-//email submission success page
-// .such-success{
-// 	height:100vh;
-// 	width:100vw;
-// 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)), url(../imgs/iphoney.jpeg) center center fixed no-repeat;
-// 	background-color: rgba(55,55,55, .5);
-// 	background-size: cover;
-// 	color:white;
-// 	.success-msg{
-// 		padding:4rem;
-// 		text-align: center;
-// 		line-height: 25px;
-// 	}
-// 	h1{
-// 		padding-top: 2rem;
-// 		margin-top: 0;
-// 	}
-// 	h5{
-// 		line-height: 45px;
-// 	}
-// 	hr {
-// 		width: 55%;
-// 		border: 0;
-// 		height: 1px;
-// 		background: whitesmoke;
-// 		background-image: -webkit-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
-// 		background-image:    -moz-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
-// 		background-image:     -ms-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
-// 		background-image:      -o-linear-gradient(left, #F7F2F2, #887D7D, #F7F2F2);
-// 	}
-// }
-
 
 //#####################################  begin media query fun #####################################################//
 
@@ -344,8 +290,12 @@ footer{
 		height:105%;
 		.link-group{
 			position: absolute;
-			margin-left: -100px;
-			left: 50%;
+			left: 0;
+			right: 0;
+
+			ul {
+				float: none;
+			}
 		}
 
 		h1{
@@ -376,36 +326,7 @@ footer{
 	}
 	#slide4{
 		height:100%;
-		// .write-you-me{
-		// 	padding:1%;
-		// 	width:100%;
-		// 	label{
-		// 		color:grey;
-		// 		font-size: 20px;
-		// 	}
-		// 	::-webkit-input-placeholder {
-		// 		color: @blue-light !important;
-		// 	}
 
-		// 	:-moz-placeholder { /* Firefox 18- */
-		// 		color: @blue-light !important;
-		// 	}
-
-		// 	::-moz-placeholder {  /* Firefox 19+ */
-		// 		color: @blue-light !important;
-		// 	}
-
-		// 	:-ms-input-placeholder {
-		// 		color: @blue-light !important;
-		// 	}
-		// 	textarea#description{
-		// 		height:115px;
-		// 	}
-		// 	.btn{
-		// 		width:100%;
-		// 		height:4rem;
-		// 	}
-		// }
 		.content{
 			a{
 				font-size: 35px !important;
@@ -467,8 +388,6 @@ and (orientation : landscape)
 		.link-group ul {
 			display: inline-flex;
 			float: none !important;
-
-			margin-left: 11%;
 		}
 		#intro{
 			margin-top: 0;

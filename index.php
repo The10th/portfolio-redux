@@ -21,10 +21,22 @@
 <div class='slide z-depth-3' id='slide1' data-slide='1'>
 	<div class="row">
 		<div class='link-group' class='col s12 m12 l12'>
-			<ul class='right'>
-				<a href="https://www.github.com/the10th" target='_blank'><li class='fa fa-3x fa-github-square'></li></a>
-				<a href="https://www.linkedin.com/in/julianhvnguyen" target='_blank'><li class='fa fa-3x fa-linkedin'></li></a>
-				<a href="https://angel.co/julian-nguyen" target='_blank'><li class='fa fa-3x fa-angellist'></li></a>
+			<ul>
+				<li>
+					<a href="https://www.github.com/the10th" target='_blank'>
+						<i class='fa fa-3x fa-github-square'></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/julianhvnguyen" target='_blank'>
+						<i class='fa fa-3x fa-linkedin'></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://angel.co/julian-nguyen" target='_blank'>
+						<i class='fa fa-3x fa-angellist'></i>
+					</a>
+				</li>
 			</ul>
 		</div>
 		<div id='intro' class="col s12 m12 l12 valign-wrapper">

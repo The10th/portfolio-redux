@@ -55,6 +55,7 @@
 }
 .slide .link-group ul {
   display: inline-block;
+  float: right;
 }
 .slide .link-group ul a {
   color: white;
@@ -74,6 +75,7 @@
   text-align: center;
 }
 #slide1 img {
+  margin-left: -39px;
   height: 180px;
   width: 180px;
 }
@@ -255,8 +257,11 @@ footer {
   }
   #slide1 .link-group {
     position: absolute;
-    margin-left: -100px;
-    left: 50%;
+    left: 0;
+    right: 0;
+  }
+  #slide1 .link-group ul {
+    float: none;
   }
   #slide1 h1 {
     font-size: 3.5rem;
@@ -320,7 +325,6 @@ footer {
   #slide1 .link-group ul {
     display: inline-flex;
     float: none !important;
-    margin-left: 11%;
   }
   #slide1 #intro {
     margin-top: 0;
