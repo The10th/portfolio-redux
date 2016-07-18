@@ -88,9 +88,9 @@
 				My passion is architecting CSS frameworks and component libraries for enterprise applications.
 			</h5>
 			<h5 class='center'>
-				Migrating CSS languages for large scale apps, designing intuitive interfaces, and making a whole lot of red on pull requests...that's my jam.
+				I've migrated entire component libraries, removed framework dependencies, and implemented a full redesign of an enterprise web app...and it was damn fun.
 				<br>
-				Check back here for updates on current projects!
+				Working on getting projects here...check back soon!
 			</h5>
 		</div>
 
@@ -109,7 +109,7 @@
 		<h1>Thanks <span class='hos'>for stopping by</span></h1>
 		<hr />
 		<div class="content">
-			<h5 class='center light-blue-text text-darken-1'>We should do this again sometime. Connect with me or grab a copy of my <a class='light-blue-text text-darken-2' href='./download/jhvndrev.pdf'>CV</a class=''>.</h5>
+			<h5 class='center light-blue-text text-darken-1'>We should do this again sometime. Connect with me or grab a copy of my <a class='light-blue-text text-darken-2' href='./download/jhnguyenresume.pdf'>CV</a>.</h5>
 			<h5 class='center grey-text text-darken-2'>Have a nice day.</h5>
 			</div>
 			<div class="row content center contact">
@@ -122,7 +122,7 @@
 				</div>
 				<div class="col s12 m4 l4">
 					<a href='skype:jhv_nguyen?call'>
-						<i class="shake fa fa-skype"></i>	Skype
+						<i class="shake fa fa-skype"></i> Skype
 					</a>
 					<br />
 					<small>jhv_nguyen</small>
@@ -152,7 +152,7 @@
 		<div class="row">
 			<div class="col s12 m12 l12">
 				<section class='left'>
-					<i class='fa fa-copyright'></i>2014-2015 Julian HV Nguyen - All rights reserved.
+					<i class='fa fa-copyright'></i>2014-2016 Julian HV Nguyen - All rights reserved.
 				</section>
 			</div>
 		</div>
