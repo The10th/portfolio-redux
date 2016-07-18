@@ -100,9 +100,9 @@
 				My passion is architecting CSS frameworks and component libraries for enterprise applications.
 			</h5>
 			<h5 class='center'>
-				I've migrated entire component libraries, removed framework dependencies, and implemented a full redesign of an enterprise web app...and it was damn fun.
+				Migrating CSS languages for large scale apps, designing intuitive interfaces, and making a whole lot of red on pull requests...that's my jam.
 				<br>
-				Working on getting projects here...check back soon!
+				Check back here for updates on current projects!
 			</h5>
 		</div>
 
