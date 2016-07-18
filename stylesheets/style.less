@@ -1,3 +1,5 @@
+//out: style.css
+
 @import 'colors';
 
 *{
@@ -6,6 +8,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	a{
+		font-family: 'Open Sans', sans-serif;
 		transition: all .5s ease 0s;
 	}
 }
@@ -16,18 +19,18 @@
 #first-btn{
 	color:white;
 	&:hover{
-		color:@mint-light;
+		color: @mint-light;
 	}
 }
 .navi-btn{
 	margin-top: 2rem;
-	color:@blue-light;
+	color: @blue-light;
 	&:hover{
 		-webkit-transform:rotate(360deg);
 		-moz-transform:rotate(360deg);
 		-o-transform:rotate(360deg);
 		cursor: pointer;
-		color:@blue-dark;
+		color: @blue-dark;
 	}
 }
 
@@ -137,7 +140,7 @@
 				}
 			}
 		}
-	}	
+	}
 }
 
 #slide3{
@@ -239,7 +242,7 @@
 		small{
 			font-size:15px;
 			color:@blue-light;
-		}			
+		}
 	}
 // .write-you-me{
 // 	padding:2rem;
@@ -317,7 +320,7 @@ footer{
 		&:first-child{
 			margin-bottom: 4rem;
 		}
-	}	
+	}
 
 	.hos{
 		display: none !important;
@@ -359,36 +362,7 @@ footer{
 	}
 	#slide4{
 		height:100%;
-		// .write-you-me{
-		// 	padding:1%;
-		// 	width:100%;
-		// 	label{
-		// 		color:grey;
-		// 		font-size: 20px;
-		// 	}
-		// 	::-webkit-input-placeholder {
-		// 		color: @blue-light !important;
-		// 	}
 
-		// 	:-moz-placeholder { /* Firefox 18- */
-		// 		color: @blue-light !important;  
-		// 	}
-
-		// 	::-moz-placeholder {  /* Firefox 19+ */
-		// 		color: @blue-light !important;  
-		// 	}
-
-		// 	:-ms-input-placeholder {  
-		// 		color: @blue-light !important;  
-		// 	}
-		// 	textarea#description{
-		// 		height:115px;
-		// 	}
-		// 	.btn{
-		// 		width:100%;
-		// 		height:4rem;
-		// 	}
-		// }
 		.content{
 			a{
 				font-size: 35px !important;
@@ -424,7 +398,7 @@ footer{
 				margin-left: initial;
 				margin-right: 0;
 			}
-		}		
+		}
 	}
 }
 
@@ -440,7 +414,7 @@ footer{
 @media only screen
 and (min-device-width : 300px)
 and (max-device-width : 650px)
-and (orientation : landscape) 
+and (orientation : landscape)
 {
 	.slide{
 		height:100% !important;
@@ -462,5 +436,3 @@ and (orientation : landscape)
 
 
 //######################################  end media query fun ######################################################//
-
-
